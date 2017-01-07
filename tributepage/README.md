@@ -1,0 +1,2 @@
+# tributepage
+This is the tribute page project I am working on for FreeCodeCamp. I am making a tribute page to B.K.S. Iyengar who is considered the father of "modern yoga." I study this type of yoga, so I see making this page as a good way to get better at coding, deepen my knowledge about Mr. Iyengar, and be better to explain the Iyengar method in a public forum. It's a triple win in my book! I'm hoping to add this page to a personal yoga page I plan on making down the road.  
