@@ -1,5 +1,7 @@
 <link href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+
 
 <head>
     <style>
@@ -10,9 +12,9 @@
             font-size: 100px;
              } 
     
-        .main{
+        .heading{
             background-color: lightsteelblue;
-            font-family: "Trebuchet MS";
+            font-family: 'Merienda', cursive;
              }
         
         .pic{
@@ -26,38 +28,37 @@
             margin-left: auto;
             margin-right: auto;
         }
+        
+        .main{
+                background-color: lightsteelblue;
+                font-family:'PT Serif', serif;
+        }
     </style>
     <script src = "jquery-3.1.1.js" type = "text/javascript"></script>
-    
-</head>
 
-<div class = "container-fluid">
-    <div class = "top" align = "center">
-        <h1><b>B.K.S. Iyengar</b></h1>
-    </div>
+ <div class = "top" align = "center"><b>B.K.S. Iyengar</b></div>
     <div class = "pic"> 
-            <IMG class = "displayed" src ="img/trio.JPG" alt = "Trio">
+        <IMG class = "displayed" src ="img/trio.JPG" alt = "Trio">
     </div>    
-</div>
+</head>  
 
   
 <body>
-    <div class = "main">
+<div class = "container-fluid">
+    <div class = "heading">
     
         <h1>Who is B.K.S. Iyengar?</h1>
     </div>
-    <div class = "main">
+    <div class = "heading">
         <h1>What is Iyengar Yoga?</h1>
     </div>
-    <div class = "main">
+    <div class = "heading">
         <h1>Timeline</h1>
-        <ul>
-         
-        </ul>
     </div>
-    <div class = "main">
+    <div class = "heading">
         <h1>Recommended Books</h1>
-            <ul>
+    </div>
+            <ul class = "main">
                 <li>Light on Yoga</li>
                 <li>Light on Pranayama</li>
                 <li>Light on Life</li>
@@ -66,27 +67,56 @@
                     Iyengar&#41</li>
             </ul>
     </div>
-    <div class = "main">    
-        <h1>Links</h1>
-        <ul>
-            <h2>Regional Associations</h2>
-            <ul>
-                <li><a href = "http://bksiyengar.com/modules/Iyoga/iyoga.htm">Official Website of B.K.S. Iyengar</a></li>
-                <li><a href="https://iynaus.org/">Iyengar National Association of the US (IYANUS)</a></li>
-                <li><a href = "http://www.iyase.org/">Iyengar Yoga Association of the Southeast (IYASE)</a></li>
-                <li><a href = "http://http://www.iyanw.org/">Iyengar Yoga Association of the Northwest(IYANW)</a></li>
-                <li><a href = "https://iyisf.org">Iyengar Yoga Association of Northern California(IYANC)</a></li>
-                <li><a href = "http://iyala.org/">Iyengar Yoga Association of Los Angeles(IYALA)</a></li>
-                <li><a href = "http://iyacsr.org/">Iyengar Yoga Association of Southern California(IYACSR)</a></li>
-                <li><a href = "http://www.iyasw.org/">Iyengar Yoga Association of the Southwest(IYASW)</a></li>
-                <li><a href = "http://www.imiya.org/">InterMountain Iyengar Yoga Association(IMIYA)</a></li>
-                <li><a href = "http://www.iyengaryogaminnesota.org/">Iyengar Yoga Minnesota(IYAMN)</a></li>
-                <li><a href = "http://iyascus.org/">Iyengar Yoga Association of South Central U.S.(IYASCUS)</a></li>
-                <li><a href = "http://iyamw.org/">Iyengar Yoga Association of the Midwest(IYAMW)</a></li>
-                <li><a href = "http://www.iyane.org/">Iyengar Yoga Association of New England(IYANE)</a></li>
-                <li><a href = "http://iyengarnyc.org/">Iyengar Yoga Association of Greater New York(IYAGNY)</a></li>
-            </ul>  
-            
+    <div class = "heading">
+        <h1>Regional Associations</h1>
+    </div>
+    <div class = "row">    
+        <div class = "col-sm-6">
+            <div class = "well" id = "left well">Left</div>
+        </div>
+        <div class = "col-md-6">
+            <div class = "well" id = "right well">Right</div>
+        </div>
+    </div>
+</div>
+</body>
+                
+                    <!---
+                    <ul>
+                        <li><a href = "http://bksiyengar.com/modules/Iyoga/iyoga.htm">Official Website of B.K.S. Iyengar</a></li>
+                        <li><a href="https://iynaus.org/">Iyengar National Association of the US (IYANUS)</a></li>
+                        <li><a href = "http://www.iyase.org/">Iyengar Yoga Association of the Southeast (IYASE)</a></li>
+                        <li><a href = "http://http://www.iyanw.org/">Iyengar Yoga Association of the Northwest(IYANW)</a></li>
+                        <li><a href = "https://iyisf.org">Iyengar Yoga Association of Northern California(IYANC)</a></li>
+                        <li><a href = "http://iyala.org/">Iyengar Yoga Association of Los Angeles(IYALA)</a></li>
+                        <li><a href = "http://iyacsr.org/">Iyengar Yoga Association of Southern California(IYACSR)</a></li>
+                    </ul>
+--->
+
+<!---                    
+                    
+                </div>
+            </div>
+            <div class = .col-md-6>    
+                <div class = well>
+                    <!---
+                    <ul>
+                        <li><a href = "http://www.iyasw.org/">Iyengar Yoga Association of the Southwest(IYASW)</a></li>
+                        <li><a href = "http://www.imiya.org/">InterMountain Iyengar Yoga Association(IMIYA)</a></li>
+                        <li><a href = "http://www.iyengaryogaminnesota.org/">Iyengar Yoga Minnesota(IYAMN)</a></li>
+                        <li><a href = "http://iyascus.org/">Iyengar Yoga Association of South Central U.S.(IYASCUS)</a></li>
+                        <li><a href = "http://iyamw.org/">Iyengar Yoga Association of the Midwest(IYAMW)</a></li>
+                        <li><a href = "http://www.iyane.org/">Iyengar Yoga Association of New England(IYANE)</a></li>
+                        <li><a href = "http://iyengarnyc.org/">Iyengar Yoga Association of Greater New York(IYAGNY)</a></li>
+                    </ul>
+
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---        
             <h2>Iyengar Yoga Blogs and Websites</h2>
             <ul>
                 <li><a href = "http://www.schumacheryoga.com/">John Schumacher Yoga</a></li>
@@ -98,7 +128,7 @@
             </ul>
         </ul>
     </div>
-    <div class = "main">
+    <div class = "heading">
         <h1>Image Sources</h1>
         <p><a href = "http://iyengar-yoga.org.nz/">BKS Iyengar Yoga Association of New Zealand</a></p>
         <p><a href="http://iyala.org/iyengar-yoga#.WG2eQxsrI2w">Iyengar Yoga Association of Los Angeles</a></p>
