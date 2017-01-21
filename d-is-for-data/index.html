@@ -1,7 +1,7 @@
 
 <link href = "bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel = "stylesheet">
 <link href = "font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css" rel = "stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Comfortaa|Permanent+Marker" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa|Permanent+Marker|Reenie+Beanie" rel="stylesheet">
 
 <head>
 <script = "text/javascript" src = "jquery-3.1.1.js"></script>
@@ -34,9 +34,16 @@
     }
   
     .h2{
-        font-family: 'Permanent Marker', cursive;
-        color:white;
+        font-family: 'Permanent Marker', cursive !important;
+        color:white !important;
         
+    }
+    
+    .aboutme{
+        background-color: #8181AB;
+        font-family: 'Reenie Beanie', cursive;
+        color: white;
+        font-size: 22px
     }
     
 </style>
@@ -49,7 +56,7 @@
     </div>
     <div class = "row">
         <div class = "col-md-12 h2" align = "center">
-            <h2>GIS-Visualization-Instructional Design</h2>
+            <h2>GIS-Visualization-Geodatascience-Training</h2>
         </div>
     </div>
 
@@ -57,18 +64,37 @@
         <div class = "container-fluid">
             <div class = "collapse navbar-collapse">
                 <ul class = "nav nav-pills navbar-right white pill">
-                    <li role = "presentation"><a href = "#">About Me<span class = "sr-only"></span></a></li>
-                    <li role = "presentation"><a href = "#">Portfolio</a></li>
-                    <li role = "presentatation"><a href = "#">Contact</a></li>
+                    <li role = "presentation"><a href = "#About_Me">About Me<span class = "sr-only"></span></a></li>
+                    <li role = "presentation"><a href = "#Portfolio">Portfolio</a></li>
+                    <li role = "presentatation"><a href = "#Contact">Contact</a></li>
                  </ul>
             </div>
         </div>
     </nav>
+    <div class = "row">
+        <div class = "col-md-6 aboutme">
+            <a id = "About_Me"></a>
+            <b>About Me</b>
+            <p>I am a geographer(and health enthusiast) who is interested in how we talk about health, how we map health, and how we visualize health. I combine geographic information systems(GIS), data science, visualization with public health methodology in better understand the relationships with health and various phenomena across physical and virtual spaces. In addition, I also combine public health and GIS models in order to create innovative mobile and web apps for health interventions.</p>
+        </div>
+        <div class = "col-md-6 aboutme">
+        <img src = "#" alt = "picture of me" style = "width:261px; height:261px;" align = "right">
+        </div>
+            
+    </div>
+    <div class = "row">
+        <div class = "col-md-12" align = "center">
+            <a id = "Portfolio"></a>
+            <p>Enter information about my portfolio.</p>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-md-12" align = "center">
+            <a id = "Contact"></a>
+            <p>Enter my contact information</p>
+        </div>
+    </div>
 
    
 </body>
 
-<!----
-1/17
--changed the style of the navbar
--added padding
