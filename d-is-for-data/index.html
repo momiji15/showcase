@@ -58,6 +58,14 @@
         padding: 10px;
     }
     
+    .contact{
+        background-color: #ABABC7;
+        font-family: 'Reenie Beanie', cursive;
+        color: white;
+        font-size: 22px;
+        padding: 10px;
+    }
+    
   
     
 </style>
@@ -88,27 +96,34 @@
     <div class = "row">
         <div class = "col-md-12 aboutme">
             <div class = "col-md-6">
-            <a id = "About_Me"></a>
-            <h3><b>About Me</b></h3>
-            <p>I am a geographer(and health enthusiast) who is interested in how we talk about health, how we map health, and how we visualize health. I combine geographic information systems(GIS), data science, visualization with public health methodology in better understand the relationships with health and various phenomena across physical and virtual spaces. In addition, I also combine public health and GIS models in order to create innovative mobile and web apps for health interventions.</p>
-            </div>
+                <a id = "About_Me"></a>
+                <h3><b>About Me</b></h3>
+                <p>I am a geographer(and health enthusiast) who is interested in how we talk about health, how we map health, and how we visualize health. I combine geographic information systems(GIS), data science, visualization with public health methodology in better understand the relationships with health and various phenomena across physical and virtual spaces. In addition, I also combine public health and GIS models in order to create innovative mobile and web apps for health interventions.</p>
+                </div>
             <div class = "col-md-6">
-            <img src = "#" alt = "picture of me" style = "width: 261px; height: 261px">
+            <img src = "#" alt = "picture of me" style = "width: 261px; height: 261px" align = "right">
             </div>
        </div>    
     </div>
-    <div class = "row">>
-        <div class = "col-md-12 portfolio">
-            <div class = "col-md-4">
+    <div class = "row">
+        <div class = "col-md-12 portfolio" align = "center">
+            <div class = "col-md-4 col-md-offset-4">
                 <a id = "Portfolio"></a>
                 <h3><b>Portfolio</b></h3>
                 <p>Enter information about my portfolio.</p>
             </div>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-md-12 portfolio">
             <div class = "col-md-3">
                     <img src = "#" alt = "image" style = "width: 285px; height: 285px">
             </div>
-            <div class = "col-md-3">
+            <div class = "col-md-4">
                 <img src = "#" alt = "image" style = "width: 285px; height: 285px">
+            </div>
+            <div class = "col-md-4">
+                <p>Enter information about my portfolio.</p>
             </div>
         </div>
         <div class = "col-md-12 portfolio">
@@ -124,9 +139,30 @@
         </div>
     </div>
     <div class = "row">
-        <div class = "col-md-12" align = "center">
+        <div class = "col-md-12 contact" align = "center">
             <a id = "Contact"></a>
-            <p>Enter my contact information</p>
+            <h3><b>Contact</b></h3>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-md-12 contact">
+            <div class = "col-md-6">
+                <div class = "input-group input-group-lg">
+                    <span class = "input-group-addon" id = "nametip">Name</span>
+                    <input type = "text" class = "form-control" placeholder = "What's your name?" aria-describedby="nametip">   
+                </div>
+                <div class = "input-group input-group-lg">
+                    <span class = "input-group-addon" id = "email">E-mail</span>
+                    <input type = "text" class = "form-control" placeholder = "What's your e-mail?" aria-describedby = "emailtip">
+                </div>
+                <div class = "input-group input-group-lg">
+                    <span class = "input-group-addon" id = "message">Message</span>
+                    <input type = "text" style = "height: 200px" class = "form-control" placeholder = "What's shakin?" aria-describedby = "messagetip">
+                </div>
+             
+            </div>
+            <div class = "col-md-6">
+            </div>
         </div>
     </div>
 
