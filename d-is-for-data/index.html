@@ -1,10 +1,14 @@
 
+
+<head>
 <link href = "bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel = "stylesheet">
 <link href = "font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css" rel = "stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Comfortaa|Permanent+Marker|Reenie+Beanie" rel="stylesheet">
 
-<head>
 <script = "text/javascript" src = "jquery-3.1.1.js"></script>
+   
+    
+
 <style>
     
     .top{
@@ -66,6 +70,9 @@
         padding: 10px;
     }
     
+    .btn{
+        background-color: #808080 !important;
+    }
   
     
 </style>
@@ -147,24 +154,24 @@
     <div class = "row">
         <div class = "col-md-12 contact">
             <div class = "col-md-6">
-                <div class = "input-group input-group-lg">
-                    <span class = "input-group-addon" id = "nametip">Name</span>
-                    <input type = "text" class = "form-control" placeholder = "What's your name?" aria-describedby="nametip">   
-                </div>
-                <div class = "input-group input-group-lg">
-                    <span class = "input-group-addon" id = "email">E-mail</span>
-                    <input type = "text" class = "form-control" placeholder = "What's your e-mail?" aria-describedby = "emailtip">
-                </div>
-                <div class = "input-group input-group-lg">
-                    <span class = "input-group-addon" id = "message">Message</span>
-                    <input type = "text" style = "height: 200px" class = "form-control" placeholder = "What's shakin?" aria-describedby = "messagetip">
-                </div>
-             
-            </div>
-            <div class = "col-md-6">
+                <form>
+                    <div class = "form-group">
+                        <label for = "nameinput">Name</label>
+                        <input type = "text" class = "form-control" id = "nameinput" placeholder = "What's your name?">
+                    </div>
+                    <div class = "form-group">
+                        <label for = "emailinput">Email</label>
+                        <input type = "text" class = "form-control" id = "emailinput" placeholder = "What's your e-mail?">
+                    </div>
+                    <div class = "form-group">
+                        <label for = "commentinput">Comment</label>
+                        <textarea class = "form-control" id = "commentinput" rows = "4">What's shakin'?</textarea>
+                    </div>
+                    <button type = "submit" class = "btn">Submit</button>
+                </form>   
+              </div>
             </div>
         </div>
-    </div>
 
    
 </body>
