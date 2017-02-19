@@ -1,12 +1,33 @@
 
 
 <head>
+
+<!---
+<meta name = "viewport" content = "width=device-width, initial-scale=1">	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
 <link href = "bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel = "stylesheet">
 <link href = "font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css" rel = "stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Comfortaa|Permanent+Marker|Reenie+Beanie" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+!--->
+
+
+ <meta name = "viewport" content = "width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>  
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+
+<link href="https://fonts.googleapis.com/css?family=Comfortaa|Permanent+Marker|Reenie+Beanie" rel="stylesheet">
+
+	
 <script>    
-$(document).ready(function(){
+$(function(){
+//matching heights on different rows
+  	$('.box').matchHeight();
 //Go to http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll to do it. Make sure to add jQuery.
 //add smooth scrolling to all links
     $("a").on('click', function(event) {
@@ -74,7 +95,7 @@ $(document).ready(function(){
         font-family: 'Reenie Beanie', cursive;
         color: white;
         font-size: 22px;
-        padding: 10px;
+        padding: 70px;
 
         
     }
@@ -84,15 +105,30 @@ $(document).ready(function(){
         font-family: 'Reenie Beanie', cursive;
         color: white;
         font-size: 22px;
-        padding: 10px;
+        padding: 70px;
     }
     
+	.portfolio2{
+        background-color: #414162;
+        font-family: 'Reenie Beanie', cursive;
+        color: white;
+        font-size: 22px;  
+    }
+	
+	.portfoliotop{
+        background-color: #414162;
+        font-family: 'Reenie Beanie', cursive;
+        color: white;
+        font-size: 22px;
+        padding-top: 50px;
+	}
+	
     .misc{
         background-color: #414162;
         font-family: 'Reenie Beanie', cursive;
         color: white;
         font-size: 22px;
-        padding: 10px;
+        padding: 50px;
     }
     
     .contact{
@@ -102,6 +138,14 @@ $(document).ready(function(){
         font-size: 22px;
         padding: 10px;
     }
+	
+	.contact2{
+        background-color: #ABABC7;
+        font-family: 'Reenie Beanie', cursive;
+        color: white;
+        font-size: 22px;
+        padding-top: 70px;
+    }
     
     .btn{
         background-color: #808080 !important;
@@ -109,12 +153,10 @@ $(document).ready(function(){
   
     .profilepic{
         
-        border-radius: 50%;
-    
-        
+        border-radius: 50%;   
         
     }
-    
+
     
     
 </style>
@@ -122,155 +164,166 @@ $(document).ready(function(){
 </head>
 
 <body>
-    <div class = "top" align = "center">
-        <p><b>D is for Data</b></p>
-    </div>
-    <div class = "row">
-        <div class = "col-md-12 h2" align = "center">
-            <h2>Public Health-GIS-Visualization-Geodatascience-Training-Consultation</h2>
-        </div>
-    </div>
-
     <nav class = "navbar navbar-inverse navbar-fixed-top">
         <div class = "container-fluid">
-            <div class = "collapse navbar-collapse">
-                <ul class = "nav nav-pills navbar-right white pill">
-                    <li role = "presentation"><a href = "#About_Me">About Me<span class = "sr-only"></span></a></li>
-                    <li role = "presentation"><a href = "#Portfolio">Portfolio</a></li>
-                    <li role = "presentatation"><a href = "#Contact">Contact</a></li>
-                 </ul>
-            </div>
+			<div class = "navbar-header">
+            	 <button type = "button" class = "navbar-toggle collapsed"  data-toggle = "collapse" data-target = "#myNavBar" aria-expanded = "false" aria-controls = "navbar" >
+             <span class = "sr-only">Toggle navigation</span>
+             <span class = "icon-bar"></span>
+             <span class = "icon-bar"></span>
+             <span class = "icon-bar"></span>
+           </button>
+        </div>  
+        <div class = "collapse navbar-collapse" id = "myNavBar">
+            <ul class = "nav nav-pills navbar-right white pill">
+                <li role = "presentation"><a href = "#About_Me">About Me<span class = "sr-only"></span></a></li>
+                <li role = "presentation"><a href = "#Portfolio">Portfolio</a></li>
+                <li role = "presentation"><a href = "#Contact">Contact</a></li>
+            </ul>
         </div>
-    </nav>
+   </div>
+ </nav>
+	
+<div class = "container-fluid">
+	<div class = "row">
+		<div class = "top row">
+	  		<div class = "col-sm-12" align = "center">
+        		<p><b>D is for Data</b></p>
+    		</div>
+		</div>
     <div class = "row">
-        <div class = "col-md-12 aboutme">
-            <div class = "col-md-6">
-                <a id = "About_Me"></a>
+        <div class = "col-sm-12 h2" align = "center">
+            <h2>Public Health-GIS-Visualization-Geodatascience-Training-Consultation</h2>
+        </div>
+	</div>
+    <div class = "row">
+        <div class = "col-sm-12 aboutme" id = "About_Me">
+            <div class = "col-sm-6 box">
                 <h2><b>About Me</b></h2>
                 <p>I am a geographer(and health enthusiast) who is interested in how we talk about health, how we map health, and how we visualize health. I combine geographic information systems(GIS), data science, visualization with public health methodology in better understand the relationships with health and various phenomena across physical and virtual spaces. In addition, I also combine public health and GIS models in order to create innovative mobile and web apps for health interventions.</p>
                 <p>In addition, I provide training and consultation on how to integrate spatial analysis and geographic data science into health related research projects. I also have a background in instructional design and instructional technology and can create custom modules and educational materials to suit your or your organization's needs.</p>
                 </div>
-            <div class = "col-md-6" align = "center" style = "padding: 60px">
+            <div class = "col-sm-6 box" align = "center">
             <img src = img/profilesquare.jpg alt = "picture of me" class = profilepic>
             </div>
        </div>    
     </div>
-    <div class = "row">
-        <div class = "col-md-12 portfolio" align = "center">
-            <div class = "col-md-4 col-md-offset-4">
-                <a id = "Portfolio"></a>
+    
+	<div class = "row portfolio" id = "Portfolio">
+			<div class = "col-sm-12" align = "center">    
                 <h2><b>Portfolio</b></h2>
             </div>
         </div>
-    </div>
-    <div class = "row">
-        <div class = "col-md-12 portfolio" align = "center">
-                <p>The bulk of my work is interdisplinary in nature; it can range from combining public health and GIS modelling for health interventions to combining non-traditional and traditional data in order better understand how the public makes health decisions. In addition, I have used my instructional design experience in order to create learning materials such as tutorials to show how to do basic data collection using R.
+		
+
+    <div class = "row portfolio2">
+        <div class = "col-sm-12">
+			<p>The bulk of my work is interdisplinary in nature; it can range from combining public health and GIS modelling for health interventions to combining non-traditional and traditional data in order better understand how the public makes health decisions. In addition, I have used my instructional design experience in order to create learning materials such as tutorials to show how to do basic data collection using R.</p>
         </div>
     </div>
-    <div class = "row">
-        <div class = "col-md-12 portfolio">
-            <div class = "col-md-4">
+    <div class = "row portfolio2">
+        <div class = "col-sm-12">
+            <div class = "col-sm-4">
                 <h3><b>Public health</b></h3>
             </div>
         </div>
     </div>
-    <div class = "row">
-        <div class = "col-md-12 portfolio">
-            <div class = "col-md-6" align = "center">
-                    <img src = "img/LOGIC1.JPG" alt = "image" style = "width: 393px; height: 339px; padding-bottom: 1px" >
-                    <img src = "img/SMART1.JPG" alt = "image" style = "width: 393px; height: 339px">
+    <div class = "row portfolio2">
+        <div class = "col-sm-12">
+            <div class = "col-sm-8 box" align = "center">
+                    <img src = "img/LOGIC1.JPG" alt = "image" style = "width: 50%; height: 50%; padding-bottom: 1px" >
+                    <img src = "img/SMART1.JPG" alt = "image" style = "width: 50%; height: 50%">
 
             </div>
-            <div class = "col-md-4">
+            <div class = "col-sm-4 box">
                 <p>Community Guide Project</p>
                 <p>This project was a final project in a class on health interventions and will be incorporated in my dissertation which is on using traditional and non-traditional data sources to better understand the quality of care the Veteran Affair's hospitals provide their patients. This project is based on the stand-alone mass media campaign intervention defined in the Guide to Community Preventative Services(The Community Guide) which was created by the Community Services Task Force, an independent panel of experts appointment by the Center for Diease Control (CDC) to give an evidenced-based review on various health interventions. The purpose of this project was to design an tech-based intervention to increase the physical activity of female veterans. A logic model and SMART objectives were created for this intervention. </p>
             </div>
         </div>
     </div>
-    <div class = "row">
-        <div class = "col-md-12 portfolio">
-            <div class = "col-md-4">
+    <div class = "row portfolio2">
+        <div class = "col-sm-12">
+            <div class = "col-sm-4">
             <h3><b>GIS-Geodatascience-Visualization</b></h3>
             </div>
         </div>
     </div>
-    <div class = "row">
-        <div class = "col-md-12 portfolio">
-            <div class = "col-md-4">
+    <div class = "row portfolio2">
+        <div class = "col-sm-12">
+            <div class = "col-sm-4 box">
                 <img src = "img/NT2.jpg" alt = "uninsured" style = "width: 90%">
                 <img src = "img/Uninsured3.jpg" alt = "negative tweets" style = "width: 90%">
             </div>
-            <div class = "col-md-4">
+            <div class = "col-sm-4">
                 <img src = "img/TD2.jpg" alt = "uninsured 2" style = "width: 90%">
                 <img src = "img/Uninsured2.jpg" alt = "unsinured 3" style = "width: 90%">
             </div>
-            <div class = "col-md-4">
+            <div class = "col-sm-4 box">
                 <p>Trump Clumps and Hillary Heaps: A look at Negative Tweets and Health Related Socio-Economic Characteristics</p>
                 <p>This project explored the spatial distribution of negative tweets in the US and to see if there is any correlation to the percentage of individuals that are below the poverty line, the percentage of individuals that are below the poverty line, the percentage of individuals who are uninsured, and the percentage of households that are on food stamps. Machine learning algorithms categorized the tweets based on sentiment and political candidate. In addition, geostatistical techniques were conducted on the tweets to determine if there is a clustering of tweets.</p>
             </div>
         </div>
     </div>
-    <div class = "row">
-        <div class = "col-md-12 portfolio">
-            <div class = "col-md-4">
+    <div class = "row portfolio2">
+        <div class = "col-sm-12">
+            <div class = "col-sm-4 box" align = "center">
             <h3><b>Training</b></h3>
             </div>
         </div>
     </div>
-    <div class = "row">
-        <div class = "col-md-12 portfolio">
-            <div class = "col-md-4">
-                <img src = "img/MaptoApp1.JPG" alt = "image" style = "width: 369px; height: 414px">
+    <div class = "row portfolio2">
+        <div class = "col-sm-12">
+            <div class = "col-sm-4 box" align = "center">
+                <img src = "img/MaptoApp1.JPG" alt = "image" style = "width: 90%; height: 90%">
             </div>
-            <div class = "col-md-4">
-                <img src = "img/MaptoApp2.JPG" alt = "image" style = "width: 369px; height: 414px">
+            <div class = "col-sm-4 box" align = "center" style = "padding-top: 1px">
+                <img src = "img/MaptoApp2.JPG" alt = "image" style = "width: 90%; height: 90%">
             </div>
-            <div class = "col-md-4">
+            <div class = "col-sm-4 box">
             <p>From App to Map</p>
             <p>This tutorial was created to teach how to collect Twitter data through the twitteR and streamR application program interface and to display that data on a leaflet map using the R programming language. This tutorial was designed in such a way that even the novice programmer can gain competence in collecting Twitter data and displaying it on a map. </p>
             </div>
         </div>
     </div>
-    <div class = "row">
-        <div class = "col-md-12 misc">
-            <div class = "col-md-4">
+    <div class = "row portfolio2">
+        <div class = "col-sm-12">
+            <div class = "col-sm-4">
                 <h3><b>Miscellaneous</b></h3>
             </div>
         </div>
     </div>
     <div class = "row">
-        <div class = "col-md-12 portfolio misc">
-            <div class = "col-md-4">
-                <img src = "img/BKS1.JPG" alt = "image" style = "width: 374px; height: 163px">
+        <div class = "col-sm-12 portfolio2" style = "padding-bottom: 50px;">
+            <div class = "col-sm-4 box" align = "center">
+                <img src = "img/BKS1.JPG" alt = "image" style = "width: 90%; height: 90%">
             </div>
-            <div class = "col-md-4">
-                <img src = "img/BKS2.JPG" alt = "image" style = "width: 345px; height: 163px">
+            <div class = "col-sm-4 box" align = "center" style = "padding-top: 1px">
+                <img src = "img/BKS2.JPG" alt = "image" style = "width: 90%; height: 90%">
             </div>
-            <div class = "col-md-4">
+            <div class = "col-sm-4 box">
                 <p>I created this tribute page to B.K.S. Iyengar as part of the Free Code Camp Front End Development Course. </p>
             </div>
         </div>
     </div>
-    <div class = "row">
-        <div class = "col-md-12 contact" align = "center">
-            <a id = "Contact"></a>
+    <div class = "row contact2" id = "Contact">
+        <div class = "col-sm-12 contact" align = "middle" id = "Contact">
+        
             <h3><b>Contact</b></h3>
         </div>
     </div>
-    <div class = "row">
-        <div class = "col-md-12 contact">
-              <div class = "col-md-6 contact col-md-offset-3">
-                  <address>If you have any questions regarding my work or the services I provide, please don't hesistate to <a href =" mailto:doritolay@gmail.com">contact me!</a> Resume is available upon request. I will reply as soon as I can. Thank you!</address>
+    <div class = "row contact">
+        <div class = "col-sm-8 col-sm-offset-2" align = "middle">
+               <address>If you have any questions regarding my work or the services I provide, please don't hesistate to <a href =" mailto:doritolay@gmail.com">contact me!</a> Resume is available upon request. I will reply as soon as I can. Thank you!</address>
             </div>
         </div>
-        <div class = "col-md-12 contact" align = "middle">
+        <div class = "col-sm-12 contact" align = "middle">
             <h3><b>Find me on</b></h3>
             <a href = "https://twitter.com/Dorris_Scott"><i class="fa fa-twitter"></i></a>
             <a href = "https://github.com/momiji15"><i class="fa fa-github-alt"></i></a>
         </div>
-    </div>
-
+	</div>
+</div>
+</iv>
    
 </body>
 
