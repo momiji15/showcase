@@ -1,5 +1,0 @@
----
-title: "About the final project"
----
-
-This page will give some information about the rationale behind the project(i.e. being a requirement for EDIT 6170) along with information about the team members.
