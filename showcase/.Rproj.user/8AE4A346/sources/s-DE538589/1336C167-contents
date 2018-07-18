@@ -1,0 +1,30 @@
+# Testing twitteR package for antil LGBT bias project
+# Instructions available here: https://opensource.com/article/17/6/collecting-and-mapping-twitter-data-using-r
+
+setwd("~/Box Sync/Research/LGBT Bias Project/Twitter")
+
+# Download package:
+install.packages("twitteR") #installs TwitteR library (twitteR) #loads TwitteR
+library(twitteR)
+
+# Enter API info:
+api_key <- "Ih5CKBF3DKAfHUFAcKnojvPq7" #in the quotes, put your API key 
+api_secret <- "nrQCjRC22FvCtvBwjtGw5mDK2BZFSzV9Jqf07THihQELt9JgSA" #in the quotes, put your API secret token 
+token <- "1014180343119732736-obStlDlyNNhPABXkB8rzRNXjeYxGz3" #in the quotes, put your token 
+token_secret <- "yikX5dwTp3HgxWuL9H9jxSEmzI6QP6WqxdPeLbAwa1M3p" #in the quotes, put your token secret
+
+# Connect to Tiwtter to access the API:
+setup_twitter_oauth(api_key, api_secret, token, token_secret)
+
+# Sample search:
+tweets <- searchTwitter("fag OR #fag OR fags OR #fags OR faggot OR #faggot OR faggots OR #faggots", n = 200, lang = "en")
+# This code simply says to search for the first 200 tweets (n = 200) in English (lang = "en"), which contain the terms fag(s) or faggot(s) or any hashtag mentioning these terms.
+
+# Save tweets to data frame
+homophobic_tweets.df <-twListToDF(tweets)
+homophobic_tweets.df
+# Looks good, but latitude and longitude are showing up as NA.
+
+# Export as CSV:
+write.csv(homophobic_tweets.df, "~/Box Sync/Research/LGBT Bias Project/Twitter/homophobic_tweets.csv") 
+# Issues: 1) no latitude and longitude, 2) can't see hashtags, 3)  how can I limit to certain time periods?
