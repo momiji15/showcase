@@ -1,9 +1,9 @@
 modalID: 2
 title: Food For Thought
 #date: 2014-07-06
-img: ACFB.jpg
+img: dssgthree.jpg
 client: Data Science for Social Good
-#clientLink: "#"
+clientLink: "#"
 category: Shiny Apps
 description: This project explores public opinion on the Supplemental Nutrition Assistance Program (SNAP) in news and social media outlets, and tracks elected representatives’ voting records on issues relating to SNAP and food insecurity. We used machine learning, sentiment analysis, and text mining to analyze national and state level coverage of SNAP in order to gauge perceptions of the program over time across these outlets. Our final results are displayed in four R Shiny apps that the Atlanta Community Food Bank Advocacy Team can use to inform their communication to relevant stakeholders. I was responsible for creating an interactive map app which shows the results of the sentiment analysis and and a WordCloud app in which one can see the most frequent words about SNAP by news outlet.
   <a href = "https://momiji15.shinyapps.io/snap_infomap/"> <img src="img/portfolio/SNAPMap.jpg" width="600 px"/>

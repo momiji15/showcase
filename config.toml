@@ -42,16 +42,16 @@ googleAnalytics = ""
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "D. Scott"
-		subtitle   = "A portfolio of my work."
+		subtitle   = "A digital showcase of my work."
 		#buttonText = "Find out more"
 
 
 	# About section
 	[params.about]
 		headline    = "From maps to apps and everything in-between."
-		#description = "I am interested in making applications that assist with health communication and advocacy for public health related issues. I also have experience working on a diversity of issues which uses GIS to solve real-world problems. I believe in empowering individuals and groups to use GIS and data science in a problem-solving capacity and have created educational modules and conducted workshops on data collection and mapping."
+		description = "I am interested in making applications that assist with health communication and advocacy for public health related issues. I have also have experience working on a diversity of issues which uses GIS to solve real-world problems. I believe in empowering individuals and groups to use GIS and data science in a problem-solving capacity and have created educational modules and conducted workshops on data collection and mapping."
 		#buttonText  = "Get started!"
-	  description = "I believe in empowering individuals and groups to use GIS and data science in a problem-solving capacity. I  have experience working on a diversity of issues which uses GIS to solve real-world problems and have created web mapping apps tailored to organizational needs. In addition, I have created educational modules and conducted workshops on data collection and mapping."
+
 
 	# Service section#
 #	[params.services]
