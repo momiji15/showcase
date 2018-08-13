@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1533442255809.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3241990102",
+    "id" : "B3CCD042",
+    "lastKnownWriteTime" : 1533957082,
+    "last_content_update" : 1533957082564,
+    "path" : "~/GitHub/showcase/data/projects/2014-07-10-project-6.yaml",
+    "project_path" : "data/projects/2014-07-10-project-6.yaml",
+    "properties" : {
+        "cursorPosition" : "15,36",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "yaml"
+}
