@@ -1,0 +1,21 @@
+modalID: 4
+title: Incorporating Patient Satisfaction in Health Accessibility Modeling for VA Health Facilities
+date: 2014-07-10
+img: VA_VISN_edit.jpg
+client: 
+clientLink: "#"
+category: GIS, Shiny Apps
+description: My current research revolves around incorporating non-traditional data sources such as Google Reviews and Facebook
+             and traditional data sources such as VA patient surveys in accessibility modelling for VA Health facilities. 
+             Particularly, my research focuses how social media, internet review data, and government data can be used with GIS 
+             to help patients be better informed about VA health facilities and the overall performance of their 
+             Veteran’s Integrated Service Network (VISN) compared to facilities in other areas and networks. Preliminary results
+             indicate that accessibility mostly was unchanged but did change in a few areas. Moving forward, this project will
+             focus on spatial accessibility of both VA and non-VA health facilities for women veterans. Ultimately the results
+             of this research will be integrated in an app tailored for women veterans to use for decision-making in regards
+             to health and wellness.
+             
+             <br></br>
+             <img src = "img/portfolio/VISN7TotalVets.jpg" width = "800 px"/>
+             <br></br>
+             <img src = "img/portfolio/VISN7InternetCompare.jpg" width = "800 px"/>

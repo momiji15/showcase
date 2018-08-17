@@ -1,9 +1,9 @@
-modalID: 3
+modalID: 5
 title: Instructional Design and Tutorials
 #date: 2014-07-07
 img: 6.jpg
 #client: Start Bootstrap
-clientLink: "#"
+#clientLink: "#"
 category: instructional design, tutorials
 description: I have made some tutorials on R; namely how to collect tweets and to map them on Leaflet. 
              <h3> From App to Map </h3>
