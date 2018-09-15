@@ -1,0 +1,14 @@
+modalID: 6
+title: Athens Social Atlas
+date: 2014-07-10
+img: awp_edit.jpg
+client: 
+clientLink: "#"
+category: GIS, Shiny Apps
+description: This Shiny app was created to show the data that was collected from the Athens Wellbeing Project. The purpose
+             of the Athens Wellbeing Project is to provide data about the Athens community which will allow community members and organizations
+             to make more informed decision-making. The data that was used for the Athens Wellbeing Project came from surveys given to
+             households in Athens-Clarke county and secondary data sources such as U.S. Census data and Clarke County school district data.
+
+             <br></br>
+             <a href = "https://comapuga.shinyapps.io/AthensSocialAtlas/"> <img src="img/portfolio/ASA.jpg" width="600 px"/>
